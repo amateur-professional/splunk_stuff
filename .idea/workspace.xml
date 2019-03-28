@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f04217-7da2-4d36-a53f-af4120927f6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/splunk_stuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/splunk_stuff.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-01.sh" beforeDir="false" afterPath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-01.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-02-decoded.sh" beforeDir="false" afterPath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-02-decoded.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1085/T1085.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1085/T1085.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1086/T1086.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1086/T1086.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1105/T1105.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1105/T1105.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1117/T1117.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1117/T1117.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1170/T1170.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1170/T1170.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1197/T1197.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1197/T1197.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1216/T1216.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1216/T1216.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1220/T1220.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1220/T1220.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/T1223/T1223.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1223/T1223.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/atomics/index.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/index.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/art/docs/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/docs/assets/javascripts/roll-the-dice.js" beforeDir="false" afterPath="$PROJECT_DIR$/art/docs/assets/javascripts/roll-the-dice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,18 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/art/execution-frameworks/contrib/python/runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4935">
-              <caret line="329" column="51" selection-start-line="329" selection-start-column="51" selection-end-line="329" selection-end-column="51" />
-              <folding>
-                <element signature="e#130#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/checkart.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -130,32 +104,6 @@
             <path>
               <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="art" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="art" type="462c0819:PsiDirectoryNode" />
-              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="art" type="462c0819:PsiDirectoryNode" />
-              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="art" type="462c0819:PsiDirectoryNode" />
-              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
