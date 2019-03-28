@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4f04217-7da2-4d36-a53f-af4120927f6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/splunk_stuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/splunk_stuff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-01.sh" beforeDir="false" afterPath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-01.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-02-decoded.sh" beforeDir="false" afterPath="$PROJECT_DIR$/art/ARTifacts/Chain_Reactions/rocke-and-roll-stage-02-decoded.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1085/T1085.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1085/T1085.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1086/T1086.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1086/T1086.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1105/T1105.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1105/T1105.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1117/T1117.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1117/T1117.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1170/T1170.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1170/T1170.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1197/T1197.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1197/T1197.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1216/T1216.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1216/T1216.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1220/T1220.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1220/T1220.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/T1223/T1223.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/T1223/T1223.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/atomics/index.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/art/atomics/index.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/art/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/docs/assets/javascripts/roll-the-dice.js" beforeDir="false" afterPath="$PROJECT_DIR$/art/docs/assets/javascripts/roll-the-dice.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-601964762">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="itermcolors" value="1" />
+          <entry key="pip" value="1" />
+          <entry key="py" value="4" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+          <entry key="PythonStub" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="py" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="61" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/art/execution-frameworks/contrib/python/runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4935">
+              <caret line="329" column="51" selection-start-line="329" selection-start-column="51" selection-end-line="329" selection-end-column="51" />
+              <folding>
+                <element signature="e#130#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/checkart.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/test.py" />
+        <option value="$PROJECT_DIR$/scripts/afterglow.itermcolors" />
+        <option value="$PROJECT_DIR$/art/execution-frameworks/contrib/python/runner.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="art" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="art" type="462c0819:PsiDirectoryNode" />
+              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="art" type="462c0819:PsiDirectoryNode" />
+              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="art" type="462c0819:PsiDirectoryNode" />
+              <item name="execution-frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splunk_stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splunk_stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.49489796" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/atomic-red-team" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2/_io.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/afterglow.itermcolors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" column="37" lean-forward="true" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/pip">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art/execution-frameworks/contrib/python/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4935">
+          <caret line="329" column="51" selection-start-line="329" selection-start-column="51" selection-end-line="329" selection-end-column="51" />
+          <folding>
+            <element signature="e#130#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/checkart.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
