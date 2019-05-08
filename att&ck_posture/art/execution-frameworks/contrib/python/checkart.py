@@ -36,7 +36,7 @@ def main():
     #techniques.execute("T1009", position=0, parameters={})  #Linux/Mac technique
 
     # T1010 - Application Window Discovery
-    techniques.execute("T1010", position=0, parameters={'inpute_source_code': "C:\\AtomicRedTeam\\atomics\T1010\src\T1010.cs", 'output_file_name': 'C:\\atomic_red_team_results\\T1010.exe'})
+    techniques.execute("T1010", position=0, parameters={'input_source_code': "C:\\AtomicRedTeam\\atomics\T1010\src\T1010.cs", 'output_file_name': 'C:\\atomic_red_team_results\\T1010.exe'})
 
     # T1012 - Query Registry
     techniques.execute("T1012", position=0, parameters={})
