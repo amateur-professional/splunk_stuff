@@ -271,7 +271,91 @@ def main():
     techniques.execute("T1105", position=0, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/LICENSE.txt', 'local_path': 'Atomic-license.txt'})
     techniques.execute("T1105", position=1, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/LICENSE.txt', 'local_path': 'Atomic-license.txt'})
 
-    # T1107 -
+    # T1107 - File Deletion
+    techniques.execute("T1107", position=0, parameters={'file_to_delete': 'C:\\Windows\\Temp\\victim-files-cmd\\a'})
+    techniques.execute("T1107", position=1, parameters={'file_to_delete': 'C:\\Windows\\Temp\\victim-files-cmd'})
+    techniques.execute("T1107", position=2, parameters={'file_to_delete': 'C:\\Windows\\Temp\\victim-files-ps\\a'})
+    techniques.execute("T1107", position=3, parameters={'file_to_delete': 'C:\\Windows\\Temp\\victim-files-ps'})
+    techniques.execute("T1107", position=4, parameters={})
+    techniques.execute("T1107", position=5, parameters={})
+    techniques.execute("T1107", position=6, parameters={})
+    techniques.execute("T1107", position=7, parameters={})
+
+    # T1110 - Brute Force
+    # Test commented out because it requires a remote host
+    # If running test, ensure remote host field is filled in
+    #techniques.execute("T1110", position=0, parameters={'input_file_users': "DomainUsers.txt", 'input_file_passwords': 'passwords.txt', 'remote_host': 'REPLACE-ME', 'domain': 'REPLACE-ME'})
+
+    # T1112 - Modify Registry
+    techniques.execute("T1112", position=0, parameters={})
+    techniques.execute("T1112", position=1, parameters={})
+    techniques.execute("T1112", position=2, parameters={})
+
+    # T1113 - Screen Capture
+    #techniques.execute("T1113", position=0, parameters={})  #Linux/Mac technique
+
+    # T1114 - Email Collection
+    techniques.execute("T1114", position=0, parameters={})
+
+    # T1115 - Clipboard Data
+    techniques.execute("T1115", position=0, parameters={})
+    techniques.execute("T1115", position=1, parameters={})
+
+    # T1117 - Regsvr32
+    techniques.execute("T1117", position=0, parameters={'filename': 'C:\\AtomicRedTeam\\atomics\\T1117\\RegSvr32.sct'})
+    techniques.execute("T1117", position=1, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1117/RegSvr32.sct'})
+    techniques.execute("T1117", position=2, parameters={'dll_name': 'C:\\AtomicRedTeam\\atomics\T1117\\bin\\AllTheThingsx86.dll'})
+
+    # T1118 - InstallUtil
+    techniques.execute("T1118", position=0, parameters={'filename': 'T1118.dll'})
+
+    # T1119 - Automated Collection
+    techniques.execute("T1119", position=0, parameters={})
+    techniques.execute("T1119", position=1, parameters={})
+
+    # T1121 - RegSvcs/RegAsm
+    techniques.execute("T1121", position=0, parameters={'file_name': 'T1121.dll', 'source_file': 'C:\\AtomicRedTeam\\atomics\\T1121\\src\\T1121.cs'})
+    techniques.execute("T1121", position=1, parameters={'file_name': 'T1121.dll', 'source_file': 'C:\\AtomicRedTeam\\atomics\\T1121\\src\\T1121.cs'})
+
+    # T1122 - Component Object Model Hijacking
+    techniques.execute("T1122", position=0, parameters={})
+
+    # T1123 - Audio Capture
+    techniques.execute("T1123", position=0, parameters={'output_file': 'test.wma', 'duration_hms': '0000:00:30'})
+    techniques.execute("T1123", position=1, parameters={})
+
+    # T1124 - System Time Discovery
+    techniques.execute("T1124", position=0, parameters={'computer_name': 'localhost'})
+    techniques.execute("T1124", position=1, parameters={})
+
+    # T1126 - Remove Network Share
+    techniques.execute("T1126", position=0, parameters={'share_name': '\\test\share'})
+    techniques.execute("T1126", position=1, parameters={'share_name': '\\test\share'})
+    techniques.execute("T1126", position=2, parameters={'share_name': '\\test\share'})
+
+    # T1127 - Trusted Developer Utilities
+    techniques.execute("T1127", position=0, parameters={'filename': 'T1127.csproj'})
+
+    # T1128 - Netsh Helper DLL
+    techniques.execute("T1128", position=0, parameters={'helper_file': 'C:\\Path\\file.dll'})
+
+    # T1130 - Install Root Certificate
+    #techniques.execute("T1130", position=0, parameters={})  #Linux/Mac technique
+
+    # T1132 - Data Encoding
+    #techniques.execute("T1132", position=0, parameters={})  #Linux/Mac technique
+
+    # T1134 - Access Token Manipulation
+    techniques.execute("T1134", position=0, parameters={'target_user': 'SYSTEM'})
+
+    # T1135 - Network Share Discovery
+    techniques.execute("T1132", position=0, parameters={'computer_name': 'localhost'})
+    techniques.execute("T1132", position=1, parameters={'computer_name': 'localhost'})
+
+    # T1136 -
+
+
+
 
 
 
