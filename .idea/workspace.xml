@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f04217-7da2-4d36-a53f-af4120927f6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/att&amp;ck_posture/art/execution-frameworks/contrib/python/checkart.py" beforeDir="false" afterPath="$PROJECT_DIR$/att&amp;ck_posture/art/execution-frameworks/contrib/python/checkart.py" afterDir="false" />
-    </list>
+    <list default="true" id="f4f04217-7da2-4d36-a53f-af4120927f6b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/att&amp;ck_posture/art/execution-frameworks/contrib/python/checkart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="505" column="4" selection-start-line="505" selection-start-column="4" selection-end-line="505" selection-end-column="4" />
+            <state relative-caret-position="510">
+              <caret line="503" column="128" selection-start-line="503" selection-start-column="128" selection-end-line="503" selection-end-column="128" />
             </state>
           </provider>
         </entry>
@@ -314,7 +311,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.24954791" />
@@ -450,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/att&amp;ck_posture/art/execution-frameworks/contrib/python/checkart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="505" column="4" selection-start-line="505" selection-start-column="4" selection-end-line="505" selection-end-column="4" />
+        <state relative-caret-position="510">
+          <caret line="503" column="128" selection-start-line="503" selection-start-column="128" selection-end-line="503" selection-end-column="128" />
         </state>
       </provider>
     </entry>

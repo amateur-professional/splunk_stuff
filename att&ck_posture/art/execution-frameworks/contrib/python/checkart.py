@@ -1,7 +1,6 @@
 # Imports runner.py, sets variables and executes scripts
 
 # TODO:
-# Finish populating windows tests
 # Add logic to clean memory after every couple of tests
 # Refine tests to launch the appropriate parameters. Some test are timing out because of incorrect default params
 # Populate Linux/Mac tests (low pri)
