@@ -106,7 +106,7 @@ def main():
     #techniques.execute("T1040", position=1, parameters={'interface': 'REPLACE-ME'})
 
     # T1042 - Change Default File Association
-    techniques.execute("T1042", position=0, parameters={'extension_to_change': '.wav', 'target_extension_handler': 'C:\\Program Files\\Windows Media Player\\wmplayer.exe'})
+    techniques.execute("T1042", position=0, parameters={'extension_to_change': '.wav', 'target_exenstion_handler': 'C:\\Program Files\\Windows Media Player\\wmplayer.exe'})
 
     # T1046 - Network Service Scanning
     #techniques.execute("T1046", position=0, parameters={})  #Linux/Mac technique
@@ -350,16 +350,158 @@ def main():
     techniques.execute("T1134", position=0, parameters={'target_user': 'SYSTEM'})
 
     # T1135 - Network Share Discovery
-    techniques.execute("T1132", position=0, parameters={'computer_name': 'localhost'})
-    techniques.execute("T1132", position=1, parameters={'computer_name': 'localhost'})
+    techniques.execute("T1135", position=0, parameters={'computer_name': 'localhost'})
+    techniques.execute("T1135", position=1, parameters={'computer_name': 'localhost'})
 
-    # T1136 -
+    # T1136 - Create Account
+    techniques.execute("T1136", position=0, parameters={'username:': 'Evil Account'})
+    techniques.execute("T1136", position=1, parameters={'username:': 'Evil Account'})
 
+    # T1137 - Office Application Startup
+    #techniques.execute("T1137", position=0, parameters={})  #Linux/Mac technique
 
+    # T1138 - Application Shimming
+    techniques.execute("T1138", position=0, parameters={})
 
+    # T1139 - Bash History
+    #techniques.execute("T1139", position=0, parameters={})  #Linux/Mac technique
 
+    # T1140 - Deobfuscate/Decode Files or Information
+    techniques.execute("T1140", position=0, parameters={'executable': 'C:\\file.exe'})
+    techniques.execute("T1140", position=1, parameters={'executable': 'C:\\file.exe'})
 
+    # T1141 - Input Prompt
+    techniques.execute("T1141", position=0, parameters={})
 
+    # T1142 - Keychain
+    #techniques.execute("T1142", position=0, parameters={})  #Linux/Mac technique
+
+    # T1144 - Gatekeeper Bypass
+    #techniques.execute("T1144", position=0, parameters={})  #Linux/Mac technique
+
+    # T1145 - Private Keys
+    techniques.execute("T1145", position=0, parameters={})
+
+    # T1146 - Clear Command History
+    #techniques.execute("T1146", position=0, parameters={})  #Linux/Mac technique
+
+    # T1147 - Hidden Users
+    #techniques.execute("T1147", position=0, parameters={})  #Linux/Mac technique
+
+    # T1148 - HISTCONTROL
+    #techniques.execute("T1148", position=0, parameters={})  #Linux/Mac technique
+
+    # T1150 - Plist Modification
+    #techniques.execute("T1150", position=0, parameters={})  #Linux/Mac technique
+
+    # T1151 - Space after Filename
+    #techniques.execute("T1151", position=0, parameters={})  #Linux/Mac technique
+
+    # T1152 - Launchctl
+    #techniques.execute("T1152", position=0, parameters={})  #Linux/Mac technique
+
+    # T1153 - Source
+    #techniques.execute("T1153", position=0, parameters={})  #Linux/Mac technique
+
+    # T1154 - Trap
+    #techniques.execute("T1154", position=0, parameters={})  #Linux/Mac technique
+
+    # T1155 - AppleScript
+    #techniques.execute("T1155", position=0, parameters={})  #Linux/Mac technique
+
+    # T1156 - .bash_profile and .bashrc
+    #techniques.execute("T1156", position=0, parameters={})  #Linux/Mac technique
+
+    # T1158 - Hidden Files and Directories
+    techniques.execute("T1158", position=0, parameters={'filename': 'C:\\Windows\\Temp\\sensitive_file.txt'})
+    techniques.execute("T1158", position=1, parameters={'filename': 'C:\\Windows\\Temp\\sensitive_file.txt'})
+    techniques.execute("T1158", position=2, parameters={'file_name': 'test.txt', 'ads_filename': 'adstest.txt'})
+    techniques.execute("T1158", position=3, parameters={'file_name': 'test.txt', 'ads_filename': 'adstest.txt'})
+
+    # T1159 - Launch Agent
+    #techniques.execute("T1159", position=0, parameters={})  #Linux/Mac technique
+
+    # T1160 - Launch Daemon
+    #techniques.execute("T1160", position=0, parameters={})  #Linux/Mac technique
+
+    # T1163 - Rc.common
+    #techniques.execute("T1163", position=0, parameters={})  #Linux/Mac technique
+
+    # T1164 - Re-opened Applications
+    #techniques.execute("T1164", position=0, parameters={})  #Linux/Mac technique
+
+    # T1165 - Startup Items
+    #techniques.execute("T1165", position=0, parameters={})  #Linux/Mac technique
+
+    # T1166 - Setuid and Setgid
+    #techniques.execute("T1166", position=0, parameters={})  #Linux/Mac technique
+
+    # T1168 - Local Job Scheduling
+    #techniques.execute("T1168", position=0, parameters={})  #Linux/Mac technique
+
+    # T1169 - Sudo
+    #techniques.execute("T1169", position=0, parameters={})  #Linux/Mac technique
+
+    # T1170 - Mshta
+    techniques.execute("T1170", position=0, parameters={'file_url': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/atomics/T1170/mshta.sct'})
+
+    # T1173 - Dynamic Data Exchange
+    #techniques.execute("T1173", position=0, parameters={})  #Linux/Mac technique
+
+    # T1174 - Password Filter DLL
+    techniques.execute("T1174", position=0, parameters={'input_dll': 'C:\\AtomicRedTeam\\atomics\\T1174\\src\\AtomicPasswordFilter.dll'})
+
+    # T1176 - Browser Extensions
+    #techniques.execute("T1176", position=0, parameters={})  #Linux/Mac technique
+
+    # T1179 - Hooking
+    techniques.execute("T1179", position=0, parameters={'file_name': 'C:\\AtomicRedTeam\\atomics\\T1179\\bin\\T1179x64.dll', 'server_name': 'https://www.example.com'})
+
+    # T1180 - Screensaver
+    techniques.execute("T1180", position=0, parameters={'input_binary': 'C:\\Windows\\System32\\cmd.exe'})
+
+    # T1183 - Image File Execution Options
+    techniques.execute("T1183", position=0, parameters={'target_binary': 'winword.exe', 'payload_binary': 'cmd.exe'})
+    techniques.execute("T1183", position=1, parameters={'target_binary': 'notepad.exe', 'payload_binary': 'cmd.exe'})
+
+    # T1191 - CMSTP
+    techniques.execute("T1191", position=0, parameters={'inf_file_path': 'T1191.inf'})
+    techniques.execute("T1191", position=1, parameters={'inf_file_uac': 'T1191_uacbypass.inf'})
+
+    # T1193 - Spearfishing Attachment
+    techniques.execute("T1193", position=0, parameters={})
+
+    # T1197 - BITS Jobs
+    techniques.execute("T1197", position=0, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md', 'local_file': 'C:\\Windows\\Temp\\bitsadmin_flag.ps1'})
+    techniques.execute("T1197", position=1, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md', 'local_file': 'C:\\Windows\\Temp\\bitsadmin_flag.ps1'})
+    techniques.execute("T1197", position=2, parameters={'remote_file': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md', 'local_file': 'C:\\Windows\\Temp\\bitsadmin_flag.ps1', 'command_path': 'C:\\Windows\\System32\\notepad.exe', 'command_line': 'C:\\Windows\\Temp\\bitsadmin_flag.ps1'})
+
+    # T1201 - Password Policy Discovery
+    #techniques.execute("T1201", position=0, parameters={})  #Linux/Mac technique
+
+    # T1202 - Indirect Command Execution
+    techniques.execute("T1202", position=0, parameters={'process': 'calc.exe', 'payload_path': 'C:\\temp\\payload.dll', 'payload_cpl_path': 'C:\\Windows\\System32\\javacpl.cpl -c Java'})
+    techniques.execute("T1202", position=1, parameters={'process': 'calc.exe'})
+
+    # T1206 - Sudo Caching
+    #techniques.execute("T1206", position=0, parameters={})  #Linux/Mac technique
+
+    # T1207 - DCShadow
+    #techniques.execute("T1207", position=0, parameters={})  #Linux/Mac technique
+
+    # T1214 - Credentials in Registry
+    techniques.execute("T1214", position=0, parameters={})
+
+    # T1216 - Signed Script Proxy Execution
+    techniques.execute("T1216", position=0, parameters={'remote_payload': 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1216/payloads/T1216.sct'})
+
+    # T1217 - Browser Bookmark Discovery
+    #techniques.execute("T1217", position=0, parameters={})  #Linux/Mac technique
+
+    # T1218 - Signed Binary Proxy Execution
+    techniques.execute("T1218", position=0, parameters={'dll_payload': 'C:\\AtomicRedTeam\\atomics\T1218\\src\\x64\\T1218.dll', 'process_id': '1000'})
+    techniques.execute("T1218", position=1, parameters={'powershell_code': 'Start-Process calc.exe'})
+    techniques.execute("T1218", position=2, parameters={'dll_payload': 'C:\\AtomicRedTeam\\atomics\T1218\\src\\x64\\T1218.dll'})
 
 if __name__ == "__main__":
     main()
